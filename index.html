@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PROYECTO FINAL</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+
+<script type="text/javascript">
+window.onload = function() { //tras cargar la página ...
+visor1=document.getElementById("visor"); //referencia al visor
+mititulo=document.getElementById("titulo"); //referencia al pie de foto
+}
+function mifoto(num) { //cambiar la imagen
+         f="foto"+num+".jpg"; //ruta de la nueva imagen
+         document.images["fotoVisor"].src=f; //cambiar imagen
+         t=document.images["fotos"+num].alt; //texto de pie de foto
+         mititulo.innerHTML=t; //cambiar pie de foto
+         }
+</script>
+
+
+    </head>
+    <body>
+        <br>
+
+<div class="cabecera"><h1>
+    Pensaquimicos<h1>
+</div>
+        <header>
+            <center>
+            <nav class="navegacion">
+
+                <ul class="menu">
+
+                    </li>
+                    <li><a href="subtemas.html">Temas</a>
+                        <ul class="submenu">
+
+                        </ul>
+                    </li>
+                    <li><a href="aplicaciones.html">Aplicaciones de la termoquímica</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            </center>
+        </header>
+        <h2><center>TERMOQUÍMICA</center></h2>
+
+<h1>Animate a descubrir todo sobre la termoquímca</h1>
+</div>
+
+<div id="menuv" class="menuv">
+<a href="#visor"><img src='foto1.jpg' alt='<i>¿te has preguntado para qué es termoquímica?</i>.' name='fotos1' onclick="mifoto(1)"/></a>
+<a href="#visor"><img src='foto2.jpg' alt='<i> Química<i>.' name='fotos2' onclick="mifoto(2)"/></a>
+<a href="#visor"><img src='foto3.jpg' alt='<i>Tabla periodica de los elementos</i>' name='fotos3' onclick="mifoto(3)"/></a>
+<a href="#visor"><img src='foto4.jpg' alt='<i>Se parte del maravilloso mundo de la qupimica' name='fotos4' onclick="mifoto(4)"/></a>
+</div>
+
+<div id="principal" class="principal">
+
+<div id="visor" class="visor">
+
+   <img src='foto1.jpg' alt='<i><b>La naturaleza nos brinda diversos productos para sanar nuestro cuerpo de manera orgnánica</b></i>.' name='fotoVisor'/>
+   <div id="titulo"><i><b>DESCUBRE</b></i>.</div>
+   </div>
+</div>
+<br>
+<br>
+            
+
+
+                        <center><h3>¿QUÉ ES LA TERMODINÁMICA?</h3></center>
+
+                            <div class="bubu">
+                        <center><img src="fuego.webp" width="300px" alt="ejemplo visual de termoquímica">
+                        </center>
+                        <br>
+                        <p>
+                            La Termoquímica es una subdisciplina de la fisicoquímica que estudia los cambios de calor en procesos de cambio químico, como lo son las reacciones químicas. 
+                            Se puede considerar que las reacciones químicas se producen a presión constante (atmósfera abierta, es decir, P=1 atm), o bien puede considerarse que se producen a volumen constante (el del receptáculo donde se estén realizando).
+                            Tratándose de intercambios de calor a presión constante, la magnitud característica de la termoquímica es el incremento de entalpía, es decir, la variación de calor que se dará en el paso de reactivos a productos.
+                            Existen dos procesos involucrados en el estudio de la termoquímica:
+                        </p>
+                    </div>
+                        <div class="bubu2">
+                           
+                       
+                            <center><li>Proceso a presión constante:
+                             <h4><p><i><font face="New Times Roman">El calor intercambiado en el proceso es equivalente a la variación de entalpía de la reacción.</font></i></p></h4>
+                            </li>
+
+                            <li>
+                            Proceso a volumen constante:
+                            <h4><p><i><font face="New Times Roman">El calor que se intercambia en estas condiciones equivale a la variación de energía interna de la reacción.</font></i></p></h4>
+                            </li></center>
+                        </p>
+                        </div>
+                
+                        <center><h3>PRIMERA LEY DE LA TERMODINÁMICA</h3></center>
+                             <div class="bubu">
+                            <center><img src="ley1.png" alt="1ra ley de la termoquímica"></center>
+                    
+                        <p>
+                            El primer principio de la termodinámica establece que la energía de un sistema siempre se conserva y enuncia que si un sistema recibe calor del medio y realiza un trabajo, la diferencia entre ambos se invierte en producir una variación de la energía interna del sistema (DE). 
+                            Matemáticamente, se expresa como: <b>DE = Q - W</b>
+                            La energía interna es una función de estado. No puede conocerse su valor absoluto, sino sólo la variación que experimenta entre el estado inicial y el final del sistema.
+                            Aplicación a las reacciones químicas.<br>
+                            <center>
+                            <h4>Las aplicaciones fundamentales son:</h4><br>
+                            <li>Transferencia de calor a volumen constante:</li><br>
+                            <b>DE = Q - W = Q - PDV = Qv</b><br>
+                            <li>Transferencia de calor a presion constante:</li><br>
+                            <b>DE = Q - W = Qp - PDV</b>
+                            </center>
+                            </p></div>
+                            <center>
+                            <b>ECUACIONES TERMOQUÍMICAS</b>
+                                <p>En las reacciones que transcurren a presión constante, la variación de entalpía puede determinarse midiendo el calor absorbido o desprendido<br>
+                                    en una reacción que tiene lugar en un recipiente abierto:</p><br>
+                                        <b>Q = c m DT</b><br>
+                                    Donde: 
+                                    <table border="2">
+                                        <tr>
+                                            <td>Q</td>
+                                            <td>Es el calor absoluto o desprendido en Joules (J).</td>
+                                            </tr>
+                                            <tr>
+                                                <td>c</td>
+                                                <td>Es el calor específico del agua (4.18 J/g°C).</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>m</td>
+                                                    <td>Es la masa de agua en gramos (g).</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>DT</td>
+                                                        <td>Es la variación de temperatura en °C.</td>
+                                                        </tr>
+                                        </table>
+                                </div>
+    </body>
+</html>

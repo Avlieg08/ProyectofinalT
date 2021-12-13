@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+
+<style type="text/css">
+
+
+
+        .menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #CE7D35;
+    transition: all .3s;
+}
+
+/*Submenu*/
+
+.submenu{
+    position: absolute;
+    background: #3333;
+    visibility: hidden;
+    width: 120px;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #white;
+    font-family: ;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+
+}
+.menu { float: center; width: 15h%; }
+.menu img { width: 12%; margin: 1%; cursor: pointer; }
+
+
+.principal { float: center; width: 60%; }
+
+
+.visor { width: 60%; margin-top: 5%; padding: 0.5em; }
+.visor img { width: 60% }
+
+.bubu p{
+
+    column-width: 250px;
+    column-count: 3;
+    padding: 5px;
+    text-align: justify;
+
+}
+
+</style>
+
+
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PROYECTO FINAL</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <br>
+        <h1>PENSAQUÍMICOS</h1>
+
+        <header>
+            <center>
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li><a href="#">Subtemas</a>
+                        <ul class="submenu">
+                            <li>opción 1</li>
+                            <li>opción 2</li>
+                            <li>opción 3</li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Temas relacionados</a>
+                        <ul class="submenu">
+                            <li>Termodinámica</li>
+                            <li>Leyes de los gases</li>
+                            <li>Estructura electrónica</li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Redes sociales</a>
+                        <ul class="submenu">
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Pinterest</li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Suscríbete</a></li>
+                    <li><a href="#">ACERCA DE...</a></li>
+                    <li><a href="#">Donaciones</a>
+                        <ul class="submenu">
+                            <li>Yappy</li>
+                            <li>Nequi Panamá</li>
+                            <li>Tarjeta</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            </center>
+        </header>
+        <h1><center>TERMOQUÍMICA</center></h1>
+        <br>
+        <center><img src="fuego.webp" alt="un ejemplo visual de termoquímica"></center>
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <center><h3>¿QUÉ ES LA TERMODINÁMICA?</h3>
+                            <div class="bubu">
+                        <img src="fuego.webp" alt="ejemplo visual de termoquímica">
+                        </center>
+                        <br>
+                        <p>
+                            La Termoquímica es una subdisciplina de la fisicoquímica que estudia los cambios de calor en procesos de cambio químico, como lo son las reacciones químicas. 
+                            Se puede considerar que las reacciones químicas se producen a presión constante (atmósfera abierta, es decir, P=1 atm), o bien puede considerarse que se producen a volumen constante (el del receptáculo donde se estén realizando).
+                            Tratándose de intercambios de calor a presión constante, la magnitud característica de la termoquímica es el incremento de entalpía, es decir, la variación de calor que se dará en el paso de reactivos a productos.
+                            Existen dos procesos involucrados en el estudio de la termoquímica:
+                            <li>Proceso a presión constante:</li>
+                            El calor intercambiado en el proceso es equivalente a la variación de entalpía de la reacción.
+                            <li>Proceso a volumen constante:</li>
+                            El calor que se intercambia en estas condiciones equivale a la variación de energía interna de la reacción.
+                        </p>
+                        </div>
+                    </td>
+                    <td>
+                        <center><h3>PRIMERA LEY DE LA TERMODINÁMICA</h3>
+                             <div class="bubu">
+                            <img src="ley1.png" alt="1ra ley de la termoquímica">
+                        </center>
+                        <br>
+                        <p align="center">
+                            El primer principio de la termodinámica establece que la energía de un sistema siempre se conserva y enuncia que si un sistema recibe calor del medio y realiza un trabajo, la diferencia entre ambos se invierte en producir una variación de la energía interna del sistema (DE). 
+                            Matemáticamente, se expresa como: <b>DE = Q - W</b>
+                            La energía interna es una función de estado. No puede conocerse su valor absoluto, sino sólo la variación que experimenta entre el estado inicial y el final del sistema.
+                            Aplicación a las reacciones químicas.<br>
+                            Las aplicaciones fundamentales son:
+                            <li>Transferencia de calor a volumen constante:</li>
+                            <center><b>DE = Q - W = Q - PDV = Qv</b></center>
+                            <li>Transferencia de calor a presion constante:</li>
+                            <center><b>DE = Q - W = Qp - PDV</b></center>
+                        </p>
+                    </div>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>

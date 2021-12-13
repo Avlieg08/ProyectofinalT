@@ -1,0 +1,100 @@
+
+*{
+	margin: auto;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    text-align: center}
+
+body{
+	background: #696969;
+}
+
+.cabecera { background: url(cabecera.jpg) ;
+   font-family: 1.3em adelia; src:url(fuentes/adelia.ttf); } 
+h1 {  color: white;text-align: center ; padding: 0.5em ; font-family: adelia;}
+
+}
+
+.menuv { float: center; width: 25h%;}
+.menuv img { width: 12%; margin: 1%; cursor: pointer; }
+
+
+.principal { float: center; width: 60%; }
+
+
+.visor { width: 80%; margin-top: 5%; padding: 0.5em; }
+.visor img { width: 60% }
+
+.aplicaciones{
+	
+color: white;text-align: center ; padding: 0.5em ;}
+ 
+header{
+	width: 100%;
+}
+
+.subtema p{
+	
+	padding: 10px;
+	border: 100px;
+	clear: right;
+	float: center;
+
+}
+.subtema2 p{
+	
+	padding: 10px;
+	border: 60px;
+
+	   font-family: 1.3em Neoradical; src:url(fuentes/Neoradical.ttf); } 
+h2 {  color: white;text-align: center ; padding: 0.5em ; font-family: Neoradical;}
+
+}
+
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: center;
+	display: inline-block;
+	background-color: #FFFFFF;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'neoradical';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+.bubu p{
+
+    column-width: 350px;
+    padding: 30px;
+    text-align: justify;
+    column-rule: 6px grey;
+    column-gap: 2em;
+
+}
+
+.bubu2 p{
+
+    padding: 10px;
+    border: 60px;
+    clear: right;
+    float: center;
